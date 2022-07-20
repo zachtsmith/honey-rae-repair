@@ -1,0 +1,14 @@
+.employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.employee {
+    background-color:aquamarine;
+    border: 2px dotted chartreuse;
+    color: black;
+    padding: .5rem;
+    margin: .5rem;
+}
