@@ -16,8 +16,9 @@ export const CustomerDetails = () => {
         }, 
         [customerId]
     )
+    console.log(customer)
     return <section className="customer" >
-    <header className="customer_header">{customer?.user?.name}</header>
+    <header className="customer_header">Name: {customer?.user?.name}</header>
     <div>Email: {customer?.user?.email}</div>
     <div>Phone Number: {customer.phoneNumber}</div>
     <div>Address: {customer.address}</div>
